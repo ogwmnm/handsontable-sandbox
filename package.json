@@ -10,6 +10,7 @@
   },
   "scripts": {
     "postinstall": "bower install",
+    "start": "npm run server",
     "server": "http-server . -p 9000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
