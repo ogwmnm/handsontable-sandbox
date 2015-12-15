@@ -4,8 +4,13 @@
   "description": "Sandbox for Handsontable",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.1",
+    "http-server": "^0.8.5"
+  },
   "scripts": {
+    "postinstall": "bower install",
+    "server": "http-server . -p 9000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

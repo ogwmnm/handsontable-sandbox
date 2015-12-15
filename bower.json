@@ -1,0 +1,22 @@
+{
+  "name": "handsontable-sandbox",
+  "description": "Sandbox for Handsontable",
+  "main": "index.js",
+  "authors": [
+    "Minami Ogawa"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ogwmnm/handsontable-sandbox",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handsontable": "~0.20.2"
+  }
+}
